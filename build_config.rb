@@ -33,6 +33,9 @@ MRuby::Build.new do |conf|
   conf.gem :github => 'mattn/mruby-onig-regexp'
   conf.gem :github => 'ksss/mruby-file-stat'
 
+  # HTTP connection for hook.rb in pool
+  conf.gem :github => 'mattn/mruby-http'
+
   # mod_mruby extended class
   conf.gem :github => 'matsumoto-r/mruby-mod-mruby-ext'
 
